@@ -28,14 +28,6 @@ main{
 
 }
 
-@media screen and (max-width: 768px){
-	.box1{
-		width: 90%;
-		float: none;
-		margin: 0 auto;
-	}
-}
-
 .box2{
 	width: 300px;
 	border:1px solid #d3d3d3;
@@ -44,27 +36,11 @@ main{
 	margin: 0 30px;
 }
 
-@media screen and (max-width: 768px){
-	.box2{
-		width: 90%;
-		float: none;
-		margin: 20px auto;
-	}
-}
-
 .box3{
 	width: 300px;
 	border:1px solid #d3d3d3;
 	float: left;
 	position: relative;
-}
-
-@media screen and (max-width: 768px){
-	.box3{
-		width: 90%;
-		float: none;
-		margin: 0 auto;
-	}
 }
 
 .number{
@@ -80,15 +56,6 @@ main{
 	text-align: center;
 }
 
-@media screen and (max-width: 768px){
-	.number{
-		width: 10%;
-		height: 7%;
-		font-size: 25px;
-		padding-top: 1%;
-	}
-}
-
 .image1{
 	width: 280px;
 	height: 150px;
@@ -96,14 +63,6 @@ main{
 	background-size: cover;
 	background-position: bottom;
 	margin: 10px;
-}
-
-@media screen and (max-width: 768px){
-	.image1{
-		width: 96%;
-		padding-top: 40%;
-		margin: 2% auto;
-	}
 }
 
 .image2{
@@ -115,14 +74,6 @@ main{
 	margin: 10px;
 }
 
-@media screen and (max-width: 768px){
-	.image2{
-		width: 96%;
-		padding-top: 40%;
-		margin: 2% auto;
-	}
-}
-
 .image3{
 	width: 280px;
 	height: 150px;
@@ -132,26 +83,10 @@ main{
 	margin: 10px;
 }
 
-@media screen and (max-width: 768px){
-	.image3{
-		width: 96%;
-		padding-top: 40%;
-		margin: 2% auto;
-	}
-}
-
 .title{
 	color: #696969;
 	margin-top: 15px;
 	margin-left: 10px;
-}
-
-@media screen and (max-width: 768px){
-	.title{
-		margin-left: 2%;
-		margin-top: 3%;
-		font-size: 40px;
-	}
 }
 
 .text{
@@ -160,6 +95,55 @@ main{
 }
 
 @media screen and (max-width: 768px){
+	.box1{
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.box2{
+		width: 90%;
+		float: none;
+		margin: 20px auto;
+	}
+
+	.box3{
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.number{
+		width: 10%;
+		height: 7%;
+		font-size: 25px;
+		padding-top: 1%;
+	}
+
+	.image1{
+		width: 96%;
+		padding-top: 40%;
+		margin: 2% auto;
+	}
+
+	.image2{
+		width: 96%;
+		padding-top: 40%;
+		margin: 2% auto;
+	}
+
+	.image3{
+		width: 96%;
+		padding-top: 40%;
+		margin: 2% auto;
+	}
+
+	.title{
+		margin-left: 2%;
+		margin-top: 3%;
+		font-size: 40px;
+	}
+
 	.text{
 		margin: 2% 8% 2% 2%;
 		font-size: 34px;
